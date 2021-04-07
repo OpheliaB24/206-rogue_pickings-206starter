@@ -1,0 +1,158 @@
+html{
+	font-size: 16px;
+}
+
+body {
+	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+	font-size: 1em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container{
+	max-width: 1200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 90%;
+	flex-flow: row wrap;
+}
+
+h1,
+h2,
+h3 {
+	color: black;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+h1 {
+	font-size: 30px;
+
+}
+h2 {
+	font-size: 18px;
+}
+h3 {
+	font-size: 12px;
+}
+
+p {
+	font-size: 0.875em;
+	line-height: 21px;
+}
+
+ul{
+	margin: 0;
+}
+
+/*The widths are in a percentage!*/
+header {
+	border-bottom: 3px solid #77a466;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	flex-flow: row wrap;
+	text-align: center;
+}
+
+header h1 {
+	margin: 0;
+	padding: 38px 20px 20px 20px;
+  border-bottom: 3px solid #77a466;
+  width: 100%;
+}
+header h1 span {
+	color: #77a466;
+}
+
+header nav {
+	padding: 20px 0;
+    width: 100%;
+}
+header nav ul {
+	margin: 0;
+	padding: 0;
+}
+header nav ul li {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 0.875em;
+	padding: 10px 0;
+	list-style: none;
+}
+header nav ul li a{
+	text-decoration: none;
+	color:#77a466;
+}
+
+/*The widths are in a percentage!*/
+.top-section,
+.bottom-section {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	flex-flow: row wrap;
+}
+
+.main-image img {
+	width: 100%;
+	border-bottom: 3px solid #77a466;
+}
+
+.main-title h2 {
+	text-align: left;
+	padding: 5px 0;
+	color: #77a466;
+}
+.main-title p {
+	padding: 0;
+	font-size: 1em;
+	line-height: 1.5625em;
+}
+
+.section-one,
+.section-two,
+.section-three {
+	width: 100%;
+	border-top: 1px solid #eee;
+}
+
+.menu {
+	list-style: none;
+	padding: 0;
+}
+.menu li {
+	padding: 10px 0;
+	color:#77a466;
+}
+
+.reviews {
+	color: #333;
+	font-size: 1em;
+	line-height: 1.3125em;
+}
+
+.address {
+	font-size: 1em;
+	line-height: 1.5;
+}
+
+/*The widths are in a percentage!*/
+footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-top: 3px solid #eee;
+	text-align: center;
+	width: 100%;
+	flex-flow: row wrap;
+}
+footer span {
+	font-family: 'Galada', cursive;
+	text-transform: lowercase;
+	color: #77a466;
+	font-size: .875em;
+}
